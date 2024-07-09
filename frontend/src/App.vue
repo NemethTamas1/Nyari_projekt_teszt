@@ -28,6 +28,7 @@ import TheWelcome from './components/TheWelcome.vue'
         fetch('http://localhost:3000/books')
         .then(res => res.json())
         .then(data => {
+          console.log(data)
           this.books = data;
         })
         .catch(err => console.log('Hiba fetchelés közben: ', err))
