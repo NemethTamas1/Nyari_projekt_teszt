@@ -1,0 +1,9 @@
+body {
+    background-image: url("../img/weblap_hattere.jpg");
+}
+
+h1 {
+    text-align: center;
+    color: yellow;
+    font-size: 100px;
+}
